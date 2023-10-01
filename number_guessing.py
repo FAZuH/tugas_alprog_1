@@ -1,5 +1,9 @@
-import colorama
-from colorama import Fore, Style
+try:
+    import colorama
+    from colorama import Fore, Style
+except ImportError:
+    print("Colorama is not installed. Please install it using 'pip install colorama'")
+    exit(1)
 import random
 
 
