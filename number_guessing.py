@@ -36,5 +36,7 @@ class Main:
                 print(Fore.LIGHTGREEN_EX + f'Correct! The number was {self.rand_int}. That took you {self.attempts} attempts' + Style.RESET_ALL)
                 break
 
+
 if __name__ == "__main__":
     Main()
+    input()

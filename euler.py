@@ -26,3 +26,4 @@ class Eulr:
 if __name__ == "__main__":
     print('Calculator for: e to the power of x.')
     Eulr(int(input('insert x: ')))
+    input()
